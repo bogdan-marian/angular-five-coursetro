@@ -25,3 +25,36 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+---
+
+# angular-five-coursetro
+
+## install node js
+```
+sudo apt-get update
+```
+[Install nodejs via package manager](https://nodejs.org/en/download/package-manager/)
+
+verify the instalation
+```
+nodejs -v
+v8.11.1
+```
+Using this instalation Node Package Manger is set up as a
+dependency so should be allready installed
+
+## install angular
+install angular globaly
+```
+sudo npm uninstall -g @angular/cli
+sudo npm install -g @angular/cli
+```
+## create a project
+```
+ng new angular-five-coursetro --style=scss --routing
+```
+## usefull commands
+```
+ng generate component home
+ng g c about
+```
