@@ -16,7 +16,7 @@
     </form>
   </div>
   <div class="col">
-    <p class="life-container" *ngFor="let goalValue of goals">
+    <p class="life-container" *ngFor="let goalValue of goals; let i = index" (click)="removeItem(i)">
       {{goalValue}}
     </p>
   </div>
