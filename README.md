@@ -58,3 +58,8 @@ ng new angular-five-coursetro --style=scss --routing
 ng generate component home
 ng g c about
 ```
+
+### annimation
+```
+npm install @angular/animations@latest --save
+```
