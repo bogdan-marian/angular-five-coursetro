@@ -63,3 +63,12 @@ ng g c about
 ```
 npm install @angular/animations@latest --save
 ```
+
+### deploy to github pages
+```
+ng build --prod --base-href="https://bogdan-marian.github.io/angular-five-coursetro/"
+
+angular-cli-ghpages
+```
+
+just a refference in case ```angular-cli-ghpages``` failes: ([comand files](https://github.com/angular-schule/angular-cli-ghpages/issues/9))
